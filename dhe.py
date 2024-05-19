@@ -8,7 +8,7 @@ class DHE:
     def __init__(self):
         if DHE.primes == []:
             try:
-                with open("primes.txt", "r") as file:
+                with open("assets/primes.txt", "r") as file:
                     for line in file:
                         split = line.split(",")
                 DHE.primes = [eval(i) for i in split]

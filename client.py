@@ -183,7 +183,7 @@ class Client:
 
     def chatGUI(self):
         # Load images
-        back_arrow_img = CTkImage(Image.open("back_arrow.png"), size=(15, 15))
+        back_arrow_img = CTkImage(Image.open("assets/icon/back_arrow.png"), size=(15, 15))
         # Widget definitions
         self.chat_frame = CTkFrame(master=self.root)
         recipient_label = CTkLabel(master=self.chat_frame, text=self.recipient, font=self.large_font)
@@ -255,7 +255,7 @@ class Client:
 
     def selectionGUI(self):
         # Load image
-        new_chat_img = CTkImage(Image.open("new_chat_icon.png"), size=(20, 20))
+        new_chat_img = CTkImage(Image.open("assets/icon/new_chat_icon.png"), size=(20, 20))
         # Widget Definitions
         self.selection_frame = CTkFrame(master=self.root, width=400, height=500)
         self.selection_frame.pack(padx=20, pady=20)
