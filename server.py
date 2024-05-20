@@ -55,6 +55,7 @@ def register(notified_socket, db, dict, data):
             name, password = data.split(DATA_DELIM)
         except Exception as e:
             print('Error Retreiving Registration Credentials!', e)
+            return False
         
         status = db.addUser(name, password)
         if status:
@@ -71,7 +72,6 @@ def sendHistory(notified_socket, db , dict, recipient):
     dict['recipient'] = recipient
 
     conversation_history = db.getConversation(dict['username'], recipient)
-    # TODO: ERROR Handling is probably unnecessary here
     if conversation_history is None:
         db.createConversation(dict['username'], recipient)
         return
@@ -84,7 +84,7 @@ def sendHistory(notified_socket, db , dict, recipient):
         if status == OK:
             continue
         else:
-            # error handling
+            # TODO: add mid-transaction error handling 
             pass
     sendEncrypted(notified_socket, dict, DONE)
     print("History Sent!")
