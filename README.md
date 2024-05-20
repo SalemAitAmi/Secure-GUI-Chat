@@ -102,7 +102,7 @@ To get a local copy up and running follow these simple steps.
    ```
 3. Login
 
-[![Login Screen Shot][Login-screenshot]](https://example.com)
+[![Login Screen Shot][Login-screenshot]](https://github.com/SalemAitAmi/Secure-GUI-Chat/blob/main/assets/images/login.png)
 
 ### Sample Profiles
 
@@ -119,17 +119,15 @@ Use any of the above credentials to get past the login window, or register under
 
 4. Register
 
-[![Register Screen Shot][Registration-screenshot]](https://example.com)
+[![Register Screen Shot][Registration-screenshot]](https://github.com/SalemAitAmi/Secure-GUI-Chat/blob/main/assets/images/register.png)
 
 5. Chat Selection
 
-[![Chat Selection Screen Shot][Selection-screenshot]](https://example.com)
+[![Chat Selection Screen Shot][Selection-screenshot]](https://github.com/SalemAitAmi/Secure-GUI-Chat/blob/main/assets/images/selection.png)
 
 6. Sample Chat
 
-[![Chat Screen Shot][Chat-screenshot]](https://example.com)
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+[![Chat Screen Shot][Chat-screenshot]](https://github.com/SalemAitAmi/Secure-GUI-Chat/blob/main/assets/images/chat-sample.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
